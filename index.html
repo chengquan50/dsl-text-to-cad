@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Model Spin Gallery</title>
+    <link rel="stylesheet" href="./styles.css?v=20260622-2349" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="stage-panel" id="drop-zone">
+        <header class="topbar">
+          <div>
+            <p class="eyebrow">Surface Assembly Prompts</p>
+            <h1>Model Spin Gallery</h1>
+          </div>
+          <div class="toolbar" aria-label="Viewer controls">
+            <button class="icon-button" id="toggle-spin" type="button" title="Pause rotation" aria-label="Pause rotation">
+              <i data-lucide="pause"></i>
+            </button>
+            <button class="icon-button" id="reset-camera" type="button" title="Reset camera" aria-label="Reset camera">
+              <i data-lucide="scan"></i>
+            </button>
+            <button class="icon-button" id="toggle-camera" type="button" title="Switch to X-ray view" aria-label="Switch to X-ray view">
+              <i data-lucide="eye"></i>
+            </button>
+            <label class="icon-button file-pick" title="Add model" aria-label="Add model">
+              <i data-lucide="upload"></i>
+              <input id="file-input" type="file" accept=".fcstd,.step,.stp,.stl,.obj,.glb,.gltf" multiple />
+            </label>
+          </div>
+        </header>
+
+        <div class="viewer-wrap">
+          <canvas id="main-canvas" aria-label="3D model viewer"></canvas>
+          <div class="drop-hint" id="drop-hint">
+            <i data-lucide="box"></i>
+            <span>Drop FCStd, STEP, STL, OBJ, GLB, or GLTF</span>
+          </div>
+          <div class="status-line" id="status-line">Preparing gallery...</div>
+        </div>
+
+        <footer class="details-row">
+          <div>
+            <p class="label">Selected</p>
+            <h2 id="selected-title">Loading model</h2>
+          </div>
+          <div class="meta-strip" id="selected-meta"></div>
+        </footer>
+      </section>
+
+      <aside class="side-panel">
+        <div class="side-head">
+          <div>
+            <p class="label">Library</p>
+            <h2 id="library-count">0 models</h2>
+          </div>
+          <button class="ghost-button" id="open-static" type="button" title="Open static files">
+            <i data-lucide="folder-open"></i>
+          </button>
+        </div>
+        <div class="model-grid" id="model-grid"></div>
+      </aside>
+    </main>
+
+    <template id="model-card-template">
+      <button class="model-card" type="button">
+        <span class="card-thumb" aria-hidden="true"></span>
+        <span class="card-copy">
+          <strong></strong>
+          <small></small>
+        </span>
+        <span class="card-actions">
+          <span class="card-delete" role="button" tabindex="0" title="Delete uploaded model" aria-label="Delete uploaded model">
+            <i data-lucide="trash-2"></i>
+          </span>
+        </span>
+      </button>
+    </template>
+
+    <script src="./vendor/lucide.min.js"></script>
+    <script type="module" src="./main.js?v=20260623-0120"></script>
+  </body>
+</html>

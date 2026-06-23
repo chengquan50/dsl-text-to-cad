@@ -1,0 +1,42 @@
+{
+  "schema": "model-gallery-uploads/v1",
+  "updatedAt": "2026-06-23T08:08:28.727Z",
+  "items": [
+    {
+      "id": "1782202091672-freestanding-smart-urinal-assembly",
+      "title": "freestanding_smart_urinal_assembly",
+      "asset": "uploads/1782202091672-freestanding-smart-urinal-assembly.stl",
+      "assetType": "stl",
+      "status": "ready",
+      "sizeBytes": 264384,
+      "uploadedAt": "2026-06-23T08:08:11.970Z"
+    },
+    {
+      "id": "1782200758687-sensor-control-box",
+      "title": "sensor_control_box",
+      "asset": "uploads/1782200758687-sensor-control-box.stl",
+      "assetType": "stl",
+      "status": "ready",
+      "sizeBytes": 195884,
+      "uploadedAt": "2026-06-23T07:45:59.093Z"
+    },
+    {
+      "id": "1782200666794-serial-external-gear-train",
+      "title": "serial_external_gear_train",
+      "asset": "uploads/1782200666794-serial-external-gear-train.stl",
+      "assetType": "stl",
+      "status": "ready",
+      "sizeBytes": 1022484,
+      "uploadedAt": "2026-06-23T07:44:27.652Z"
+    },
+    {
+      "id": "1782199879590-final-desktop-servo-robot-arm",
+      "title": "final_desktop_servo_robot_arm",
+      "asset": "uploads/1782199879590-final-desktop-servo-robot-arm.stl",
+      "assetType": "stl",
+      "status": "ready",
+      "sizeBytes": 814084,
+      "uploadedAt": "2026-06-23T07:31:21.067Z"
+    }
+  ]
+}

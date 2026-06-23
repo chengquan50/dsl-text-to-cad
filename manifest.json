@@ -1,0 +1,46 @@
+{
+  "schema": "model-gallery-manifest/v1",
+  "generatedAt": "2026-06-23T08:11:29.964Z",
+  "sourceRoot": "/Users/zanechen/Documents/Codex/2026-05-26/https-www-blakecourter-com-ai/spec/examples/89_surface_assembly_prompts",
+  "items": [
+    {
+      "id": "blender",
+      "title": "Blender",
+      "moduleCount": 3,
+      "sourceGeom": "/Users/zanechen/Documents/Codex/2026-05-26/https-www-blakecourter-com-ai/spec/examples/89_surface_assembly_prompts/geom/blender.geom",
+      "sourceFcstd": "/Users/zanechen/Documents/Codex/2026-05-26/https-www-blakecourter-com-ai/spec/examples/89_surface_assembly_prompts/build/geom/blender/build/blender.FCStd",
+      "sourceStep": "/Users/zanechen/Documents/Codex/2026-05-26/https-www-blakecourter-com-ai/spec/examples/89_surface_assembly_prompts/build/geom/blender/build/blender.xcaf.step",
+      "asset": "models/blender.stl",
+      "assetType": "stl",
+      "status": "ready",
+      "sizeBytes": 3226484,
+      "sourceKind": "fcstd"
+    },
+    {
+      "id": "electric_toothbrush",
+      "title": "Electric Toothbrush",
+      "moduleCount": 4,
+      "sourceGeom": "/Users/zanechen/Documents/Codex/2026-05-26/https-www-blakecourter-com-ai/spec/examples/89_surface_assembly_prompts/geom/electric_toothbrush.geom",
+      "sourceFcstd": "/Users/zanechen/Documents/Codex/2026-05-26/https-www-blakecourter-com-ai/spec/examples/89_surface_assembly_prompts/build/geom/electric_toothbrush/build/electric_toothbrush.FCStd",
+      "sourceStep": "/Users/zanechen/Documents/Codex/2026-05-26/https-www-blakecourter-com-ai/spec/examples/89_surface_assembly_prompts/build/geom/electric_toothbrush/build/electric_toothbrush.xcaf.step",
+      "asset": "models/electric_toothbrush.stl",
+      "assetType": "stl",
+      "status": "ready",
+      "sizeBytes": 2268184,
+      "sourceKind": "fcstd"
+    },
+    {
+      "id": "wireless_mouse",
+      "title": "Wireless Mouse",
+      "moduleCount": 3,
+      "sourceGeom": "/Users/zanechen/Documents/Codex/2026-05-26/https-www-blakecourter-com-ai/spec/examples/89_surface_assembly_prompts/geom/wireless_mouse.geom",
+      "sourceFcstd": "/Users/zanechen/Documents/Codex/2026-05-26/https-www-blakecourter-com-ai/spec/examples/89_surface_assembly_prompts/build/geom/wireless_mouse/build/wireless_mouse.FCStd",
+      "sourceStep": "/Users/zanechen/Documents/Codex/2026-05-26/https-www-blakecourter-com-ai/spec/examples/89_surface_assembly_prompts/build/geom/wireless_mouse/build/wireless_mouse.xcaf.step",
+      "asset": "models/wireless_mouse.stl",
+      "assetType": "stl",
+      "status": "ready",
+      "sizeBytes": 1102484,
+      "sourceKind": "fcstd"
+    }
+  ]
+}
