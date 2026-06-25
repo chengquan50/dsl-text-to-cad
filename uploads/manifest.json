@@ -1,7 +1,25 @@
 {
   "schema": "model-gallery-uploads/v1",
-  "updatedAt": "2026-06-23T08:08:28.727Z",
+  "updatedAt": "2026-06-25T07:23:28.992Z",
   "items": [
+    {
+      "id": "1782325000000-deployable-catch-net-assembly",
+      "title": "deployable_catch_net_assembly",
+      "asset": "uploads/1782325000000-deployable-catch-net-assembly.stl",
+      "assetType": "stl",
+      "status": "ready",
+      "sizeBytes": 1423884,
+      "uploadedAt": "2026-06-25T07:23:28.991Z"
+    },
+    {
+      "id": "1782205000000-iron-style-armored-helmet",
+      "title": "iron_style_armored_helmet",
+      "asset": "uploads/1782205000000-iron-style-armored-helmet.stl",
+      "assetType": "stl",
+      "status": "ready",
+      "sizeBytes": 1477184,
+      "uploadedAt": "2026-06-23T11:43:35.976Z"
+    },
     {
       "id": "1782202091672-freestanding-smart-urinal-assembly",
       "title": "freestanding_smart_urinal_assembly",
